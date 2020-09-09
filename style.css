@@ -26,12 +26,196 @@ margin-top: 2%;
     padding-right: 30px;
 
 }
+.logo{
+   height:80px;
+   margin-left: 10%;
+}
+.headerimg{
+    position: relative;
+}
 .headerimg img{
 width:100%;
-height: auto;
+height:85vh;
 }
+.headersocial{
+    display: flex;
+    position:absolute;
+    top: 90%;
+    left: 67%;
+    
+}
+.headersocial li a{
+    margin-left: 30px;
+}
+.headersocial .fa{
+    
+  border-radius: 50%;
+  border: 1px solid black;
+  padding: 8px;
+}
+.headersocial .fa:hover{
+    color: skyblue;
+ 
+  }
+
 a{
     color: black;
 }
+.hov a:hover{
+   
+    border-radius: 15px 15px 15px 15px;
+    background-color: rgba(105, 7, 7, 0.767);
+    color:white;
+    padding: 6px;;
+}
+.heading1{
+
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    padding-top: 30px;
+  
+}
+.categoryimg{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;;
+
+    
+
+}
+.ci{
+    background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.329);
+  border-radius: 5px;
+  height:100px;
+  width:100px;
+  margin-left: 15px;
+  
+}
+.ci img{
+    margin-left:25px;;
+    width: 50%;
+    margin-top: 20px;
+   
+}
+.ci3 img{
+    height: 50px;
+}
+.ci h5{
+    
+    color: rgba(105, 7, 7, 0.767);
+   
+    text-align: center;
+}
+
+.catfb{
+margin-left: 50%;
+display: flex;
+position: relative;
+margin-top: 3%;
+}
+.fa-caret-left{
+    position: absolute;
+    top: 8px;
+    margin-left: -20px;
+    font-size: 40px;
+    
+
+}
+.fa-caret-right{
+    position: absolute;
+    top: 8px;
+    left: 10px;;
+  
+    font-size: 40px;
+   
+}
+.products{
+    margin-top: 5%;
+    position: relative;
+}
+.products img{
+    width:100%;
+    
+}
+.productstext{
+    color:white;
+    
+    position: absolute;
+    left: 45%;;
+    bottom: 85%;
+}
+.productstext h4{
+    margin-left:40px;
+}
+.productsitems{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+  bottom: 20%;
+  left: 16%;
+
+}
+.productimages{
+    width:140px;
+    height: 140px;
+    background-color: white;
+    border-radius: 10px;
+   margin-bottom: 30px;
+
+    
+    
+}
+.productimages img{
+    width:80px;
+    height: 110px;
+    margin-top: 20px;;
+    margin-left: 30px;;
+    
+}
+.product-box{
+    margin-left: 100px;
+}
+.prodtext h1{
+    padding-top: 20px;
+    padding-left: 20px;
+    color: white;
+
+}
+.prodtext h2{
+    padding-top: 40px;
+    padding-left: 40px;;
+    color: white;
+
+
+}
+.mc{
+    margin-left: 30px;;
+}
+.catfb2{
+    margin-left: 50%;
+    display: flex;
+    position: relative;
+    margin-top: -7%;
+    
+    }
+    .fa-caret-left{
+        position: absolute;
+        top: 8px;
+        margin-left: -20px;
+        
+        font-size: 40px;
+        color: white;
+    
+    }
+    .fa-caret-right{
+        position: absolute;
+        top: 8px;
+        left: 10px;;
+        color: white;
+        font-size: 40px;
+       
+    }
 
  
