@@ -234,5 +234,173 @@ margin-top: 3%;
          width:96%;
        }
  
+       .main-circle{
 
- 
+display: flex;
+justify-content: space-around;
+       }
+       .leftcircle{
+           width:270px;
+           height:270px;
+           border-radius: 200px;
+           background-image:url(images/bg-image.jpg) ;
+           position:absolute;
+           top:-15px;
+           left:10px;
+
+       }
+       .leftcircle h1{
+           position: absolute;
+           margin-top:60px;
+           left:26px;
+           color:rgba(105, 7, 7, 0.767);
+           font-family: 'Fredoka One', cursive;
+       }
+       .circleborder{
+           border-radius: 100%;
+           border:3px  solid  rgba(105, 7, 7, 0.767);
+           width:270px;
+           height:270px;
+           margin-top: 30px;
+           position: relative;
+       }
+       .leftcircle img{
+           width:120px;
+           height:120px;
+           position: absolute;
+           top:100px;
+           left:70px;
+       }
+       .rightcircle{
+        width:270px;
+        height:270px;
+        border-radius: 200px;
+        background-image:url(images/bg-img1.jpg) ;
+        position:absolute;
+        top:-15px;
+        left:10px;
+
+    }
+    .rightcircle h1{
+        position: absolute;
+        margin-top:60px;
+        left:26px;
+        color:rgba(105, 7, 7, 0.767);
+        font-family: 'Fredoka One', cursive;
+    }
+    
+    .rightcircle img{
+        width:120px;
+        height:120px;
+        position: absolute;
+        top:100px;
+        left:70px;
+    }
+.brands{
+    background-color:#f2f2f2;
+    margin-top: 4%;;
+}
+.brandsheading{
+    text-align: center;
+    padding-top: 20px;;
+}
+.brandsheading h1{
+    font-family: 'Lobster', cursive;
+    }
+    .brandsheading h2{
+        font-weight: bolder;
+        font-size: 30px;;
+        font-family: "Arial Black", Gadget, sans-serif;
+        padding-top: 20px;;
+        }
+
+
+.brandsimg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: 10%;
+}
+.brandsimg img{
+    width:120px;
+    height: 80px;
+    margin-left: 120px;
+    margin-top: 5%;
+    justify-content: space-around;
+    padding-bottom: 20px;;
+}
+.blogsheading{
+    text-align: center;
+}
+.blogsheading h1{
+    font-weight: bolder;
+    font-size: 30px;;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+.blogs{
+    margin-top:3%;
+}
+.blogsheading h2{
+    font-weight: bolder;
+    font-size: 20px;;
+    font-family: 'Lobster', cursive;
+}
+.blogboxes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box{
+    width:350px;
+}
+.box img{
+    width:100%;
+}
+.box h1{
+    padding-top: 3%;
+}
+.box h3{
+    padding-top: 5%;
+    color: rgba(105, 7, 7, 0.767)
+}
+.box p{
+    padding-top: 2%;
+
+}
+
+.indicator{
+    display: flex;
+    justify-content: center;
+
+}
+ul>li>a{
+    color:rgba(105, 7, 7, 0.767);
+   
+}
+.delivery{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    margin-left: 23%;
+    margin-right: 23%;
+    flex-wrap: wrap;
+  
+
+
+}
+.dbox{
+    width:250px;
+    border:3px solid rgba(105, 7, 7, 0.767);
+    border-radius: 10px;
+}
+.dbox img{
+    margin-left: 70px;;
+}
+
+.dbox h1{
+    margin-left: 40px;
+    color: rgba(105, 7, 7, 0.767);
+}
+.dbox p{
+    margin-left: 30px;;
+}
