@@ -217,5 +217,22 @@ margin-top: 3%;
         font-size: 40px;
        
     }
+    .discount{
+        display: flex;
+        flex: 1;
+        margin-left: 3%;;
+     margin-top: 10%;;
+    }
+    .ldiscount {
+       border-radius: 10px;}
+      .ldiscount img{
+        width:96%;
+      }
+      .rdiscount {
+        border-radius: 10px;}
+       .rdiscount img{
+         width:96%;
+       }
+ 
 
  
