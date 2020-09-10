@@ -406,3 +406,65 @@ ul>li>a{
 .dbox p{
     margin-left: 30px;;
 }
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;;
+    margin-top: 5%;;
+}
+.fr1{
+    width:30%;
+
+}
+.fr2{
+    width:23%;
+
+}
+.fr3{
+    width:23%;
+
+}
+.fr4{
+    width:23%;
+
+}
+
+.fr1 input{
+    background-color: #4d2800;
+    width:340px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid rgb(112, 88, 43);
+ 
+}
+.arrow {
+    margin-left: -60px;
+    
+    width:50px;
+    height:50px;
+    margin-top:10px;
+    padding-top: 35px;
+   
+}
+.fr2 h1{
+    border-bottom:3px solid rgb(112, 88, 43);
+    padding-bottom:3px;
+    width:6%;
+    color:rgb(112, 88, 43);
+}
+.fr3 h1{
+    border-bottom:3px solid rgb(112, 88, 43);
+    padding-bottom:3px;
+    width:6%;
+    color:rgb(112, 88, 43);
+}
+.fr4 h1{
+    border-bottom:3px solid rgb(112, 88, 43);
+    padding-bottom:3px;
+    width:6%;
+    color:rgb(112, 88, 43);
+}
+
+
+
