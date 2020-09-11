@@ -415,6 +415,7 @@ ul>li>a{
 }
 .fr1{
     width:30%;
+    position: relative;
 
 }
 .fr2{
@@ -431,12 +432,16 @@ ul>li>a{
 }
 
 .fr1 input{
+    margin-top: 4%;;
     background-color: #4d2800;
     width:340px;
     height: 40px;
     border-radius: 20px;
     border: 1px solid rgb(112, 88, 43);
- 
+}
+.fr1 img:nth-of-type(2) {
+    position: absolute;
+    top:57%;
 }
 .arrow {
     margin-left: -60px;
@@ -450,21 +455,64 @@ ul>li>a{
 .fr2 h1{
     border-bottom:3px solid rgb(112, 88, 43);
     padding-bottom:3px;
-    width:6%;
+    width:40%;
     color:rgb(112, 88, 43);
 }
 .fr3 h1{
     border-bottom:3px solid rgb(112, 88, 43);
     padding-bottom:3px;
-    width:6%;
+    width:70%;
     color:rgb(112, 88, 43);
 }
 .fr4 h1{
     border-bottom:3px solid rgb(112, 88, 43);
     padding-bottom:3px;
-    width:6%;
+    width:40%;
+    color:rgb(112, 88, 43);
+}
+.fr4 i{
+    border-radius: 100%;;
+    border:2px solid rgb(112, 88, 43);
+    padding:4px;
     color:rgb(112, 88, 43);
 }
 
-
-
+@media screen and (min-width:967px)and ( max-width:1440px){
+    nav{
+        width:120%;
+    }
+    #hed1 img{
+        width:120%;
+    }}
+ @media screen and ( min-width:740px)and ( max-width:966px){
+        nav{
+            width:150%;
+        }
+        #hed1 img{
+            width:150%;
+        }
+}
+@media screen and ( min-width:600px)and ( max-width:739px){
+    nav{
+        width:180%;
+    }
+    #hed1 img{
+        width:180%;
+    }
+}
+@media screen and ( min-width:500px)and ( max-width:599px){
+    nav{
+        width:220%;
+    }
+    #hed1 img{
+        width:220%;
+    }
+}
+@media screen and ( min-width:360px)and ( max-width:499px){
+    nav{
+        width:250%;
+    }
+    #hed1 img{
+        width:250%;
+    }
+}
