@@ -499,6 +499,10 @@ ul>li>a{
     #hed1 img{
         width:180%;
     }
+    .catsecimg{
+        margin-left: 45%;
+        margin-right: -40%;;
+    }
 }
 @media screen and ( min-width:500px)and ( max-width:599px){
     nav{
@@ -506,6 +510,17 @@ ul>li>a{
     }
     #hed1 img{
         width:220%;
+    }
+    .catsecimg{
+        margin-left: 45%;
+        margin-right: -40%;;
+    }
+    .ci{
+        height:130px;
+    }
+    .ci img{
+        width:80px;
+        height:70px;
     }
 }
 @media screen and ( min-width:412px)and ( max-width:499px){
@@ -515,6 +530,21 @@ ul>li>a{
     #hed1 img{
         width:250%;
     }
+    .heading1{
+        margin-left: 90%;
+        width:100%;
+    }
+    .catsecimg{
+        margin-left: 65%;
+        margin-right: -80%;;
+    }
+    .ci{
+        height:130px;
+    }
+    .ci img{
+        width:80px;
+        height:70px;
+    }
 }
 @media screen and ( min-width:370px)and ( max-width:411px){
     nav{
@@ -523,4 +553,100 @@ ul>li>a{
     #hed1 img{
         width:300%;
     }
+    .heading1{
+        margin-left: 90%;
+        width:100%;
+    }
+    .catsecimg{
+        margin-left: 65%;
+        margin-right: -80%;;
+    }
+    .ci{
+        height:130px;
+    }
+    .ci img{
+        width:80px;
+        height:70px;
+    
+}
+
+@media screen and ( min-width:1200px)and ( max-width:1436px){
+    .heading1{
+        margin-left: 30%;;
+   
+}
+.products{
+    width:120%;
+}
+.catsecimg{
+    margin-left: 30%;;
+}
+}
+@media screen and ( min-width:1000px)and ( max-width:1199px){
+    .heading1{
+        margin-left: 35%;;
+   
+}
+.catsecimg{
+    margin-left: 35%;;
+}
+
+}
+@media screen and ( min-width:1100px)and ( max-width:1199px){
+    .products{
+        width:120%;
+    }
+}
+@media screen and ( min-width:975px)and ( max-width:1099px){
+    .products{
+        width:120%;
+        height:600px;
+    }
+    .productsitems{
+        margin-left: -10%;
+        padding-bottom: -10px;
+        
+    }
+    .product-box{
+        padding-top: 20px;;
+    }
+    .productstext{
+        padding-bottom: 20px;;
+    }
+}
+@media screen and ( min-width:750px)and ( max-width:974px){
+    .products{
+        width:150%;
+        height:600px;
+    }
+    .productsitems{
+        margin-left: -10%;
+        padding-bottom: -10px;
+        
+    }
+    .product-box{
+        padding-top: 20px;;
+    }
+    .productstext{
+        padding-bottom: 20px;;
+    }
+}
+
+
+
+@media screen and ( min-width:600px)and ( max-width:999px){
+    .heading1{
+        margin-left: 45%;;
+   
+}
+.catsecimg{
+    margin-left: 35%;
+}
+.ci{
+    width:200px;
+    height: 120px;;
+}
+.ci img{
+    width:70px;
+}
 }
