@@ -477,6 +477,9 @@ ul>li>a{
     color:rgb(112, 88, 43);
 }
 
+.line{
+    width: 100% ;background-color: brown;height: 3px;;
+}
 @media screen and (min-width:967px)and ( max-width:1440px){
     nav{
         width:120%;
@@ -506,6 +509,10 @@ ul>li>a{
            margin-left: 20%;
            margin-right: -10%;;
        }
+       .line{
+           width:120%;
+
+       }
  }
  @media screen and (min-width:967px)and ( max-width:974px){
     .discount{
@@ -530,7 +537,12 @@ ul>li>a{
        .main-circle{
         margin-left: 30%;
         margin-right: -20%;;
-    }}
+    }
+    .line{
+        width:140%;
+
+}
+ }
 
  @media screen and ( min-width:740px)and ( max-width:966px){
         nav{
@@ -561,7 +573,12 @@ ul>li>a{
            .main-circle{
             margin-left: 30%;
             margin-right: -20%;;
-        }}
+        }
+        .line{
+            width:150%;
+    
+    }
+    }
 
 @media screen and ( min-width:600px)and ( max-width:739px){
     nav{
@@ -596,7 +613,12 @@ ul>li>a{
        .main-circle{
         margin-left: 50%;
         margin-right: -40%;;
-    }}
+    }
+    .line{
+        width:180%;
+
+}
+}
 
 @media screen and ( min-width:500px)and ( max-width:599px){
     nav{
@@ -638,6 +660,10 @@ ul>li>a{
         flex-direction: column;
         margin-left: 90%;
     }
+    .line{
+        width:225%;
+
+}
     
 }
 @media screen and ( min-width:412px)and ( max-width:499px){
@@ -685,6 +711,10 @@ ul>li>a{
         flex-direction: column;
         margin-left: 100%;
     }
+    .line{
+        width:250%;
+
+}
 }
 @media screen and ( min-width:370px)and ( max-width:411px){
     nav{
@@ -736,6 +766,10 @@ ul>li>a{
     flex-direction: column;
     margin-left: 110%;
 }
+.line{
+    width:300%;
+
+}
 }
 @media screen and (min-width:1200px)and ( max-width:1436px){
     .heading1{
@@ -750,6 +784,21 @@ ul>li>a{
 .catsecimg{
     margin-left: 30%;;
 }
+.brands{
+    width:120%;
+    
+}
+.blogs{
+    margin-left: 20%;
+}
+.delivery{
+    margin-left: 10%;
+    width:100%;
+
+}
+.footer{
+    width:110%;
+}
 }
 @media screen and ( min-width:1000px)and ( max-width:1199px){
     .heading1{
@@ -759,11 +808,32 @@ ul>li>a{
 .catsecimg{
     margin-left: 35%;;
 }
+.brands{
+    width:120%;
+    
+}
+.blogs{
+    margin-left: 20%;
+}
+.delivery{
+    margin-left: 10%;
+    width:100%;
+
+}
+.footer{
+    width:110%;
+}
+
 
 }
 @media screen and ( min-width:1100px)and ( max-width:1199px){
     .products{
         width:120%;
+    }
+    .brands{
+        width:120%;
+       
+        
     }
 }
 @media screen and ( min-width:975px)and ( max-width:1099px){
@@ -782,6 +852,25 @@ ul>li>a{
     .productstext{
         padding-bottom: 20px;;
     }
+    .brands{
+        width:120%;
+        
+
+    }
+    .blogs{
+        margin-left: 20%;
+    }
+    .delivery{
+        margin-left: 10%;
+        width:100%;
+    
+    }
+    .footer{
+        width:110%;
+    }
+    .fr1{
+        width:40%;
+    }
 }
 @media screen and ( min-width:750px)and ( max-width:974px){
     .products{
@@ -798,6 +887,26 @@ ul>li>a{
     }
     .productstext{
         padding-bottom: 20px;;
+    }
+    .brands{
+        width:150%;
+        
+    }
+    .blogs{
+        margin-left: 24%;
+        margin-right: -30%;
+    
+    }
+    .delivery{
+        margin-left: 30%;
+        width:100%;
+    
+    }
+    .footer{
+        width:137%;
+    }
+    .fr1{
+        width:40%;
     }
 }
 
@@ -819,6 +928,31 @@ ul>li>a{
     .productstext{
         padding-bottom: 20px;;
     }
+    .brands{
+        width:150%;
+        
+    }
+    .blogs{
+        margin-left: 24%;
+        margin-right: -30%;
+    
+    
+    }
+    .delivery{
+        margin-left: 30%;
+        width:100%;
+        
+    
+    }
+    .dbox{
+        margin-top: 10px;
+    }
+    .footer{
+        width:137%;
+    }
+    .fr1{
+        width:40%;
+    }
 }
 
 @media screen and ( min-width:600px)and ( max-width:739px){
@@ -838,6 +972,37 @@ ul>li>a{
     }
     .productstext{
         padding-bottom: 20px;;
+    }
+    .brands{
+        width:180%;
+        
+    }
+    .blogs{
+        margin-left: 24%;
+        margin-right: -55%;
+    
+    }
+    .delivery{
+        margin-left: 40%;
+        width:100%;
+        
+    
+    }
+    .dbox{
+        margin-top: 10px;
+    }
+    .footer{
+        width:167%;
+    }
+    .fr1{
+        width:45%;
+    }
+    .footer p{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .fr1 input{
+        margin-top: 50px;
     }
 }
 
@@ -859,6 +1024,58 @@ ul>li>a{
     .productstext{
         padding-bottom: 20px;;
     }
+    .brands{
+        width:220%;
+        
+    }
+    .blogs{
+        margin-left: 34%;
+        margin-right: -90%;
+    
+    }
+    .delivery{
+        margin-left: 60%;
+        width:100%;
+        
+    
+    }
+    .dbox{
+        margin-top: 10px;
+    }
+    .footer{
+        width:167%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 60%;
+    }
+    .fr1{
+        width:55%;
+    }
+    .fr2{
+        width:55%;
+    }
+    .fr3{
+        width:55%;
+    }
+    .fr4{
+        width:55%;
+    }
+
+    .footer p{
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .footer h1{
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    .fr1 img:nth-of-type(2){
+    display: none;
+    }
+    .fr1 input{
+        width:500px;
+    }
+
 }
 @media screen and ( min-width:420px)and ( max-width:499px){
     .products{
@@ -878,6 +1095,77 @@ ul>li>a{
     .productstext{
         padding-bottom: 20px;;
     }
+    .brands{
+        width:250%;
+        
+    }
+    .blogs{
+        margin-left: 73%;
+        margin-right: -90%;
+    
+    }
+    .box{
+        width:120%;
+    }
+    .box h1{
+        font-size: 50px;
+    }
+    .box h3{
+        font-size: 40px;
+    }
+    .box p{
+        font-size: 40px;
+    }
+    .blogsheading h2,h1{
+        font-size: 50px;
+    }
+    .delivery{
+        margin-left: 80%;
+        width:100%;
+        
+    
+    }
+    .dbox{
+        margin-top: 10px;
+        width: 90%;
+    }
+    .dbox p{
+       font-size: 30px;
+    }
+    .footer{
+        width:167%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 80%;
+    }
+    .fr1{
+        width:55%;
+    }
+    .fr2{
+        width:55%;
+    }
+    .fr3{
+        width:55%;
+    }
+    .fr4{
+        width:55%;
+    }
+
+    .footer p{
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .footer h1{
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    .fr1 img:nth-of-type(2){
+    display: none;
+    }
+    .fr1 input{
+        width:500px;
+    }
+
 }
 @media screen and ( min-width:370px)and ( max-width:419px){
     .products{
@@ -917,6 +1205,81 @@ ul>li>a{
         height:150px;
         
     }
+    .brands{
+        width:300%;
+
+    }
+    .brandsimg img{
+        width:130px;
+        height:130px;
+    }
+    .blogs{
+        margin-left: 73%;
+        margin-right: -90%;
+    
+    }
+    .box{
+        width:120%;
+    }
+    .box h1{
+        font-size: 50px;
+    }
+    .box h3{
+        font-size: 40px;
+    }
+    .box p{
+        font-size: 40px;
+    }
+    .blogsheading h2,h1{
+        font-size: 50px;
+    }
+    .delivery{
+        margin-left: 80%;
+        width:100%;
+        
+    
+    }
+    .dbox{
+        margin-top: 10px;
+        width: 120%;
+    }
+    .dbox p{
+       font-size: 30px;
+    }
+    .footer{
+        width:167%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 80%;
+    }
+    .fr1{
+        width:100%;
+    }
+    .fr2{
+        width:100%;
+    }
+    .fr3{
+        width:100%;    }
+    .fr4{
+        width:100%;
+    }
+
+    .footer p{
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    .footer h1{
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    .fr1 img:nth-of-type(2){
+    display: none;
+    }
+    .fr1 input{
+        width:500px;
+    }
+    
+
 }
 
 
