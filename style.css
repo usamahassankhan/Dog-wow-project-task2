@@ -508,11 +508,19 @@ ul>li>a{
         width:220%;
     }
 }
-@media screen and ( min-width:360px)and ( max-width:499px){
+@media screen and ( min-width:412px)and ( max-width:499px){
     nav{
         width:250%;
     }
     #hed1 img{
         width:250%;
+    }
+}
+@media screen and ( min-width:370px)and ( max-width:411px){
+    nav{
+        width:300%;
+    }
+    #hed1 img{
+        width:300%;
     }
 }
