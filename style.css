@@ -956,6 +956,9 @@ ul>li>a{
 }
 
 @media screen and ( min-width:600px)and ( max-width:739px){
+    nav ul li {
+        font-size: 30px;
+    }
     .products{
         width:180%;
         height:600px;
@@ -1007,6 +1010,9 @@ ul>li>a{
 }
 
 @media screen and ( min-width:500px)and ( max-width:599px){
+    nav ul li {
+        font-size: 25px;
+    }
     .products{
         width:220%;
         height:600px;
@@ -1078,9 +1084,22 @@ ul>li>a{
 
 }
 @media screen and ( min-width:420px)and ( max-width:499px){
+    nav ul li {
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .nav{
+        height:80px;
+    }
     .products{
         width:250%;
         height:600px;
+    }
+    .prodtext h2{
+        margin-top: -30px;;
+    }
+    .prodtext h1{
+        font-size: 25px;;
     }
    
     .productsitems{
@@ -1168,11 +1187,18 @@ ul>li>a{
 
 }
 @media screen and ( min-width:370px)and ( max-width:419px){
-    .products{
+    
+    nav ul li {
+        font-size: 20px;
+        font-weight: bolder;
+    }.products{
         width:300%;
         height:600px;
     }
    
+    .prodtext h1{
+        font-size: 25px;;
+    }
     .productsitems{
         margin-left: -15%;
         padding-bottom: -10px;
