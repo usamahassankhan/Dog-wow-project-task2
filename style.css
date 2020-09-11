@@ -483,7 +483,55 @@ ul>li>a{
     }
     #hed1 img{
         width:120%;
+    }
+    .discount{
+        display: flex;
+        flex: 1;
+        margin-left: 10%;
+     margin-top: 10%;;
+    }
+    .ldiscount {
+       border-radius: 10px;}
+      .ldiscount img{
+        width:110%;
+        margin-right: 50px;;
+      }
+      .rdiscount {
+        border-radius: 10px;}
+       .rdiscount img{
+         width:110%;
+         margin-left: 30%;
+       }
+       .main-circle{
+           margin-left: 20%;
+           margin-right: -10%;;
+       }
+ }
+ @media screen and (min-width:967px)and ( max-width:974px){
+    .discount{
+        display: flex;
+        flex: 1;
+        margin-left: 10%;
+     margin-top: 10%;
+     width:110%;
+    }
+    .ldiscount {
+       border-radius: 10px;}
+      .ldiscount img{
+        width:120%;
+        margin-right: 50px;;
+      }
+      .rdiscount {
+        border-radius: 10px;}
+       .rdiscount img{
+         width:120%;
+         margin-left: 45%;
+       }
+       .main-circle{
+        margin-left: 30%;
+        margin-right: -20%;;
     }}
+
  @media screen and ( min-width:740px)and ( max-width:966px){
         nav{
             width:150%;
@@ -491,7 +539,30 @@ ul>li>a{
         #hed1 img{
             width:150%;
         }
-}
+        .discount{
+            display: flex;
+            flex: 1;
+            margin-left: 10%;
+         margin-top: 5%;
+         width:110%;
+        }
+        .ldiscount {
+           border-radius: 10px;}
+          .ldiscount img{
+            width:120%;
+            margin-right: 50px;;
+          }
+          .rdiscount {
+            border-radius: 10px;}
+           .rdiscount img{
+             width:120%;
+             margin-left: 45%;
+           }
+           .main-circle{
+            margin-left: 30%;
+            margin-right: -20%;;
+        }}
+
 @media screen and ( min-width:600px)and ( max-width:739px){
     nav{
         width:180%;
@@ -503,7 +574,30 @@ ul>li>a{
         margin-left: 45%;
         margin-right: -40%;;
     }
-}
+    .discount{
+        display: flex;
+        flex: 1;
+        margin-left: 10%;
+     margin-top: 10%;
+     width:130%;
+    }
+    .ldiscount {
+       border-radius: 10px;}
+      .ldiscount img{
+        width:120%;
+        margin-right: 50px;;
+      }
+      .rdiscount {
+        border-radius: 10px;}
+       .rdiscount img{
+         width:120%;
+         margin-left: 45%;
+       }
+       .main-circle{
+        margin-left: 50%;
+        margin-right: -40%;;
+    }}
+
 @media screen and ( min-width:500px)and ( max-width:599px){
     nav{
         width:220%;
@@ -522,6 +616,29 @@ ul>li>a{
         width:80px;
         height:70px;
     }
+    .discount{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;;
+    }
+    .ldiscount {
+        width:220%
+      
+    }
+      .ldiscount img{
+        width:100%;
+      }
+     
+       .rdiscount img{
+         width:130%;
+         margin-left: 50%;
+       }
+       .main-circle{
+        display: flex;
+        flex-direction: column;
+        margin-left: 90%;
+    }
+    
 }
 @media screen and ( min-width:412px)and ( max-width:499px){
     nav{
@@ -544,6 +661,29 @@ ul>li>a{
     .ci img{
         width:80px;
         height:70px;
+    }
+    .discount{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;;
+    }
+    .ldiscount {
+        width:260%
+      
+    }
+      .ldiscount img{
+        width:90%;
+        margin-left: 3%;;
+      }
+     
+       .rdiscount img{
+         width:150%;
+         margin-left: 55%;
+       }
+       .main-circle{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100%;
     }
 }
 @media screen and ( min-width:370px)and ( max-width:411px){
@@ -568,6 +708,33 @@ ul>li>a{
         width:80px;
         height:70px;
     
+
+}
+.catfb{
+    display: none;
+}
+.discount{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;;
+}
+.ldiscount {
+    width:280%
+  
+}
+  .ldiscount img{
+    width:100%;
+    margin-left: 3%;;
+  }
+ 
+   .rdiscount img{
+     width:150%;
+     margin-left: 70%;
+   }
+   .main-circle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 110%;
 }
 }
 @media screen and (min-width:1200px)and ( max-width:1436px){
