@@ -1186,7 +1186,7 @@ ul>li>a{
     }
 
 }
-@media screen and ( min-width:370px)and ( max-width:419px){
+@media screen and ( min-width:270px)and ( max-width:419px){
     
     nav ul li {
         font-size: 20px;
