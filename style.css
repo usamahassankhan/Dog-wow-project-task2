@@ -35,7 +35,10 @@ margin-top: 2%;
 }
 .headerimg img{
 width:100%;
-height:85vh;
+/* height:85vh; */
+background-size: cover;
+height: auto;
+
 }
 .headersocial{
     display: flex;
@@ -137,8 +140,9 @@ margin-top: 3%;
 }
 .products img{
     width:100%;
-    
+ 
 }
+
 .productstext{
     color:white;
     
@@ -338,6 +342,7 @@ margin-right: 15%;
     font-weight: bolder;
     font-size: 30px;;
     font-family: "Arial Black", Gadget, sans-serif;
+    margin-bottom: 20px;;
 }
 .blogs{
     margin-top:3%;
@@ -346,11 +351,13 @@ margin-right: 15%;
     font-weight: bolder;
     font-size: 20px;;
     font-family: 'Lobster', cursive;
+   
 }
 .blogboxes{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding:0 15%;
 }
 .box{
     width:350px;
@@ -417,6 +424,9 @@ ul>li>a{
     width:30%;
     position: relative;
 
+}
+.fr1 p{
+    width:350px;
 }
 .fr2{
     width:23%;
@@ -579,7 +589,21 @@ ul>li>a{
     
     }
     }
+    @media  screen and (min-width:1000px) and (max-width:1400px){
+.copy{
+   margin-left:30%;
+   font-size: 20px;
 
+}
+    }
+    @media  screen and (min-width:600px) and (max-width:1000px){
+        .copy{
+           margin-left:47%;
+           font-size: 25px;
+           width:100%;
+        
+        }
+            }
 @media screen and ( min-width:600px)and ( max-width:739px){
     nav{
         width:180%;
@@ -715,8 +739,64 @@ ul>li>a{
         width:250%;
 
 }
+
 }
 @media screen and ( min-width:370px)and ( max-width:411px){
+    nav{
+        width:300%;
+    }
+    #hed1 img{
+        width:300%;
+    }
+    .heading1{
+        margin-left: 90%;
+        width:100%;
+    }
+    .catsecimg{
+        margin-left: 65%;
+        margin-right: -80%;;
+    }
+    .ci{
+        height:130px;
+    }
+    .ci img{
+        width:80px;
+        height:70px;
+    
+
+}
+.catfb{
+    display: none;
+}
+.discount{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;;
+}
+.ldiscount {
+    width:280%
+  
+}
+  .ldiscount img{
+    width:100%;
+    margin-left: 3%;;
+  }
+ 
+   .rdiscount img{
+     width:150%;
+     margin-left: 70%;
+   }
+   .main-circle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 110%;
+}
+.line{
+    width:300%;
+
+}
+}
+@media screen and ( min-width:320px)and ( max-width:370px){
     nav{
         width:300%;
     }
@@ -792,13 +872,27 @@ ul>li>a{
     margin-left: 20%;
 }
 .delivery{
-    margin-left: 10%;
-    width:100%;
+    padding-left: 39%;
+    width: 100%;
+    margin-left: -8%;
 
+}
+.dbox{
+ padding:  -40%;
 }
 .footer{
     width:110%;
 }
+}
+@media screen and ( min-width:320px)and ( max-width:500px){
+    .productstext h4{
+        margin-bottom: -19px;
+    }
+    .productstext h1{
+        margin-bottom: -9px;
+    margin-left: -98px;
+    }
+    
 }
 @media screen and ( min-width:1000px)and ( max-width:1199px){
     .heading1{
@@ -816,14 +910,12 @@ ul>li>a{
     margin-left: 20%;
 }
 .delivery{
-    margin-left: 10%;
-    width:100%;
+    margin-left: 18%;
+    width: 100%;
+    padding-left: -30%;
+    padding-right: 13%;
 
 }
-.footer{
-    width:110%;
-}
-
 
 }
 @media screen and ( min-width:1100px)and ( max-width:1199px){
@@ -835,6 +927,18 @@ ul>li>a{
        
         
     }
+}
+@media screen and ( min-width:370px)and ( max-width:1000px){
+    .ci img{
+        margin : 10px -2px;
+
+
+    }
+}
+@media screen and ( min-width:600px)and ( max-width:640px){
+   .productsitems{
+       left:5%;
+   }
 }
 @media screen and ( min-width:975px)and ( max-width:1099px){
     .products{
@@ -1221,7 +1325,7 @@ ul>li>a{
         width:400px;
         height:250px;
         margin-top: 30px;
-        margin-left: 90px;;
+        margin-left: 90px;
     }
     .ci h5{
         font-size: 30px;
